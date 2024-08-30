@@ -1,0 +1,47 @@
+@keyframes rotaciona{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(90deg);}
+}
+
+@keyframes rotacionaaaaa{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.esquerda{      /**Nunca mexeu com animação? Tem uma primeira vez para tudo!**/
+    animation: rotaciona 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.direita{
+    animation: rotaciona 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+/** DICA: Talvez você tenha que tirar alguma animação... talvez você tenha que crair outra... Quem sabe?**/
+
+/**Nada para ver aqui em baixo!**/
+
+
+body{
+    height: 100vh;
+}
+
+.layer{
+    display: flex;
+    height: 33%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.retangulo{
+    width: 500px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+}

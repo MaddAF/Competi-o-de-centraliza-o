@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+}
+.outer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid{
+    position: relative;
+}
+/**MR50 BB100L25**/

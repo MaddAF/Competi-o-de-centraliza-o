@@ -1,0 +1,28 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+html{
+    height: 100vh;
+}
+
+.caixa{
+    width: 20vh;
+    height: 20vh;
+    background-color: blueviolet;
+}
+
+.layer{
+    display: flex;
+    flex-direction: row;
+}
+
+.cube{
+    display: grid;
+    grid-row: auto auto auto;
+    height: 60vh;
+}

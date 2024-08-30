@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html{
+    height: 100vh; /** Enquanto você tá lendo comentário seu oponente tá centralizando **/
+}
+
+.caixa{
+    width: 20vh;
+    height: 20vh;
+    background-color: blueviolet;
+}
+
+.layer{
+    display: flex;
+    flex-direction: column; /** Será que é mesmo? (emogi pensante) **/
+    gap: 20px;
+}
+
+.cube{
+    display: grid; 
+    grid-row: auto auto auto; /** MUAHAHAHAHA **/
+    height: 20vh;
+    gap: 20px;
+}
